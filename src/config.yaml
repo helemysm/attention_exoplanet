@@ -1,0 +1,20 @@
+dataset:
+  train_data_path: 'dataset_tess/training.pkl'
+  test_data_path: 'dataset_tess/testing.pkl'
+  val_data_path: 'dataset_tess/validate.pkl'
+  attdata_path: 'attention_w.pkl'
+modelparam:  
+  layers: 4
+  n_heads: 8
+  emb_dim: 512
+type_pe:
+  nope: False
+  sinus_pe: False
+  abs_pe: False
+  time_pe: True
+training:
+  epochs: 100
+  comet: ''
+  api_key: 'api_key'
+
+
